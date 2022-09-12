@@ -78,11 +78,11 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-NISKALA_IMG = "https://telegra.ph/file/b26f8a844221353be9fb0.jpg"
+AYANO_IMG = "https://telegra.ph/file/bb62d88df75d522a9807d.jpg"
 
 PM_START_TEXT = """
 *ʜᴇʟʟᴏ {}, ɪ'ᴍ ᴀʏᴀɴᴏ!*
-✪ `ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​` [✨](https://telegra.ph/file/b12bb872e3609f6efec90.jpg)
+✪ `ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​` [✨](https://telegra.ph/file/bb62d88df75d522a9807d.jpg)
 ────────────────────
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
@@ -102,7 +102,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="💢 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💢", url="http://t.me/ayanotapibot?startgroup=true"),
+        InlineKeyboardButton(text="➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="http://t.me/ayanotapibot?startgroup=true"),
     ],
 ]
 
