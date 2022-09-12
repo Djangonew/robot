@@ -40,7 +40,7 @@ This Bot Is Created By Niskala, If Your Kanging This Without Fork At Least Give 
 <br>
 
 <p align="center">
-<a href="https://dashboard.heroku.com/new?template=https://github.com/Rzydx/Niskala-Robot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="215""/</a>  
+<a href="https://dashboard.heroku.com/new?template=https://github.com/BionXp/Niskala-Robot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="215""/</a>  
 <a href="https://telegram.dog/XTZ_HerokuBot?start=Unp5ZHgvTmlza2FsYS1Sb2JvdCBOaXNrYWxh"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="215""/</a>  </p>
 
 </details>
