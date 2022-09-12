@@ -32,7 +32,7 @@ async def alive(_, message):
         photo=MEMEK,
         caption=f"""✨ **Hᴇʏ I Aᴍ ɴɪsᴋᴀʟᴀ** 
 
-**🧑‍💻 Maintained By : [AL](https://t.me/IDnyaAL)**
+**🧑‍💻 Maintained By : [Naufal](https://t.me/naufaalhafiz)**
 **🐍 Python Version :** `{y()}`
 **📃 Library Version :** `{o}`
 **♻️ Telethon Version :** `{s}`
@@ -46,7 +46,7 @@ async def alive(_, message):
                     InlineKeyboardButton(
                         "Repo", url="https://xnxx.com"), 
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/QwertYou_LoveMe")
+                        "Channel", url="https://t.me/styincreases")
                 ]
             ]
         )
