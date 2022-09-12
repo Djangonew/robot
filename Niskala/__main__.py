@@ -81,14 +81,14 @@ def get_readable_time(seconds: int) -> str:
 NISKALA_IMG = "https://telegra.ph/file/b26f8a844221353be9fb0.jpg"
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {}, ɪ'ᴍ ɴɪsᴋᴀʟᴀ!*
-✪ `ɪ'ᴍ ᴀɴ ᴡᴀʏᴀɴɢ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​` [✨](https://telegra.ph/file/b12bb872e3609f6efec90.jpg)
+*ʜᴇʟʟᴏ {}, ɪ'ᴍ ᴀʏᴀɴᴏ!*
+✪ `ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​` [✨](https://telegra.ph/file/b12bb872e3609f6efec90.jpg)
 ────────────────────
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────
 ✪ `ʜɪᴛ` /help `ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.`
-✪ `ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ` `ʙʏ` @IDnyaAL
+✪ `ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ` `ʙʏ` @naufaalhafiz
 """
 
 buttons = [
@@ -102,13 +102,13 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="💢 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💢", url="http://t.me/NiskalaXRobot?startgroup=true"),
+        InlineKeyboardButton(text="💢 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💢", url="http://t.me/ayanotapibot?startgroup=true"),
     ],
 ]
 
 
 HELP_STRINGS = """
-    ✨ BAGJA KUMAYANGAN ✨
+    ✨ HELP ✨
 
 `Klik Tombol Di Bawah Untuk Mendapatkan Deskripsi Tentang Perintah Spesifik.`
 » /Start : `Untuk Memulai Aku !!`
@@ -117,7 +117,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @IDnyaAL"""
+ @naufaalhafiz"""
 
 IMPORTED = {}
 MIGRATEABLE = []
