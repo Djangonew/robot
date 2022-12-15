@@ -81,28 +81,29 @@ def get_readable_time(seconds: int) -> str:
 AYANO_IMG = "https://telegra.ph/file/bb62d88df75d522a9807d.jpg"
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {}, ɪ'ᴍ ᴀʏᴀɴᴏ!*
-✪ `ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​` [✨](https://telegra.ph/file/bb62d88df75d522a9807d.jpg)
+*ʜᴇʟʟᴏ {},*
+✪ `ᴍʏ ɴᴀᴍᴇ ɪꜱ ʜɪsᴏᴋᴀ [✨](https://telegra.ph/file/bb62d88df75d522a9807d.jpg)
+ᴍᴇ ɪꜱ ᴀ ʙᴏᴛ ᴍᴀɴᴀɢᴇʀ + ᴍᴜꜱɪᴄ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡᴇʟʟ.`
 ────────────────────
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────
 ✪ `ʜɪᴛ` /help `ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.`
-✪ `ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ` `ʙʏ` @naufaalhafiz
+✪ `ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ` `ʙʏ` @sowhtido
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴀʏᴀɴᴏ", callback_data="niskala_about"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="niskala_about"),
     ],
     [
-        InlineKeyboardButton(text="ɢᴇᴛ ʜᴇʟᴘ", callback_data="help_back"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back"),
         InlineKeyboardButton(
-            text="ᴛʀʏ ɪɴʟɪɴᴇ​​", switch_inline_query_current_chat=""
+            text="ɪɴʟɪɴᴇ​​", switch_inline_query_current_chat=""
         ),
     ],
     [
-        InlineKeyboardButton(text="➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="http://t.me/ayanotapibot?startgroup=true"),
+        InlineKeyboardButton(text="", url="http://t.me/ayanotapibot?startgroup=true"),
     ],
 ]
 
@@ -117,7 +118,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @naufaalhafiz"""
+ @sowhtido"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -233,7 +234,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "Hai Bro I'm Niskala!\n<b>Active since:</b> <code>{}</code>".format(
+            "Hai Bro I'm Hisoka!\n<b>Active since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML
@@ -367,7 +368,7 @@ def niskala_about_callback(update, context):
     query = update.callback_query
     if query.data == "niskala_":
         query.message.edit_text(
-            text=f"*BAGJA KUMAYANGAN*"
+            text=f"*Main Command*"
 
             f"\n*Berikut Perintah Musik Yang Tersedia:*"
             f"\n\n🔰 Perintah Semua Orang"
@@ -406,7 +407,7 @@ def niskala_about_callback(update, context):
             
             f"\n\n✗ `Pertama Tambahkan` {dispatcher.bot.first_name} `Ke Grup Anda Dengan Menekan` [Disini](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n✗ `Setelah Menambahkan, Promosikan saya Sebagai Admin Secara Manual Dengan Hak Penuh Untuk Pengalaman Yang Lebih Baik.`\n"
-            f"\n✗ `Kemudian Kirim ` `/admincache@NiskalaXRobot` `Di Obrolan Itu Untuk Menyegarkan Daftar Admin Di Database Saya.`\n"
+            f"\n✗ `Kemudian Kirim ` `/admincache@HisokaTapiBot` `Di Obrolan Itu Untuk Menyegarkan Daftar Admin Di Database Saya.`\n"
             f"\n*Semua Selesai Sekarang Gunakan Tombol Yang Ada Di Bawah Ini Untuk Mengetahui Tentang Penggunaan!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -435,7 +436,7 @@ def niskala_about_callback(update, context):
         query.message.edit_text(
             text=f"*Mari Jadikan Grup Anda Sedikit Efektif Sekarang*"
             
-            f"\n✗ `Selamat, Niskala Sekarang Siap Mengelola Grup Anda.`"
+            f"\n✗ `Selamat, Hisoka Sekarang Siap Mengelola Grup Anda.`"
             f"\n\n*Alat Admin*"
             f"\n✗ `Alat Admin Dasar Membantu Anda Melindungi Dan Memperkuat Grup Anda.`"
             f"\n✗ `Anda Dapat Melarang Anggota, Menendang Anggota, Mempromosikan Seseorang Sebagai Admin Melalui Perintah Bot.`"
@@ -463,15 +464,15 @@ def niskala_about_callback(update, context):
         )
     elif query.data == "niskala_support":
         query.message.edit_text(
-            text="*Obrolan Dukungan Niskala*"
+            text="*Obrolan Dukungan Hisoka*"
             
             "\n\n✗ `Bergabunglah Dengan Grup/Saluran Dukungan`",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/NiskalaSupport"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/QwertYou_LoveMe"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/loghisoka"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/sowhtido"),
                  ],
                  [
                     InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="niskala_about"),
@@ -482,14 +483,14 @@ def niskala_about_callback(update, context):
         )
     elif query.data == "niskala_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT UNTUK NISKALA DEV'S</b>\n"
+            text=f"<b> CREDIT UNTUK HISOKA DEV'S</b>\n"
             
             f"\nBerikut Beberapa Developers Yang Membantu Pembuatan Niskala",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ᴀʟ", url="t.me/IDnyaAL"),
+                    InlineKeyboardButton(text="who", url="t.me/sowhtido"),
                     InlineKeyboardButton(text="Sʜᴜʙʜᴀɴꜱʜᴜ", url="t.me/Shubhanshutya"),
                  ],
                  [
@@ -780,7 +781,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "ᴀʜʜ ɪ'ᴍ ʀᴇᴀᴅʏ ᴋᴀᴋ 🥵")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Hi,I'M alive")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
