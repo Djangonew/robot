@@ -30,9 +30,9 @@ MEMEK = "https://telegra.ph/file/bb62d88df75d522a9807d.jpg"
 async def alive(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **Hᴇʏ I Aᴍ 𝚊̷𝚢̷𝚊̷𝚗̷𝚘̷** 
+        caption=f"""✨ **Hᴇʏ I Aᴍ Fᴇɪᴛᴀɴ** 
 
-**🧑‍💻 Maintained By : [Naufal](https://t.me/naufaalhafiz)**
+**🧑‍💻 Maintained By : [who](https://t.me/sowhtido)**
 **🐍 Python Version :** `{y()}`
 **📃 Library Version :** `{o}`
 **♻️ Telethon Version :** `{s}`
@@ -44,9 +44,9 @@ async def alive(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://xnxx.com"), 
+                        "Help", url=f"https://t.me/{bu}?start=help"), 
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/styincreases")
+                        "Channel", url="https://t.me/sowhtido")
                 ]
             ]
         )
