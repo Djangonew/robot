@@ -64,5 +64,5 @@ Commands
 ✗ /antichannel on - `to on antichannel.`
 ✗ /antichannel off - `to of antichannel`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
