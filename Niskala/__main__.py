@@ -103,13 +103,13 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="", url="http://t.me/ayanotapibot?startgroup=true"),
+        InlineKeyboardButton(text="", url="http://t.me/FeitaTapi_bot?startgroup=true"),
     ],
 ]
 
 
 HELP_STRINGS = """
-    Bantuan Perintah Feitan
+ Bantuan Perintah Feitan
 
 `Klik Tombol Di Bawah Untuk Mendapatkan Deskripsi Tentang Perintah Spesifik.`
 » /Start : `Untuk Memulai Aku !!`
