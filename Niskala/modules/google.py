@@ -288,9 +288,9 @@ __help__ = """
 ✗ /country - `<country name> Gathering info about given country`
 ✗ /imdb - `<Movie name> Get full info about a movie with imdb.com`
 
-Yuriko - `<query> Yuriko answers the query`
+Feitan - `<query> Feitan answers the query`
 
 💡 Ex: `AL where is Japan?`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
