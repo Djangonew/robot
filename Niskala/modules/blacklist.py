@@ -478,7 +478,7 @@ Admin only:
 Note:
 *<sticker link> can be* `https://t.me/addstickers/<sticker>` *or just* `<sticker>` *or reply to the sticker message*
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
 BLACKLIST_HANDLER = DisableAbleCommandHandler(
     "blacklist",
