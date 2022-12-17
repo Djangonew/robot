@@ -490,7 +490,7 @@ def niskala_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ᴀʟ", url="t.me/IDnyaAL""),
+                    InlineKeyboardButton(text="ᴀʟ", url="t.me/IDnyaAL"),
                     InlineKeyboardButton(text="Sʜᴜʙʜᴀɴꜱʜᴜ", url="t.me/Shubhanshutya"),
                  ],
                  [
