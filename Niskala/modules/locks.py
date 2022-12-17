@@ -589,7 +589,7 @@ eg:
 
 `Unlocking - `permission` *pin* `will allow members (non-admins) to pinned a message in a group`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
 
 __mod_name__ = "Lᴏᴄᴋꜱ"
