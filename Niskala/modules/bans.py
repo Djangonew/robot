@@ -562,7 +562,7 @@ __help__ = """
 ✗ /zombies - `removes deleted accounts from the group.`
 ✗ /snipe - `Make me send a message to a specific chat.`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
 
 
