@@ -139,13 +139,13 @@ def list_all_chats(update: Update, context: CallbackContext):
     update.effective_message.reply_text(text, parse_mode="HTML")
 
 __help__ = """
-✗ `Chatbot utilizes the` *AL* `api which allows Yuriko to talk and provide a more interactive group chat experience.`
+✗ `Chatbot utilizes the` *AL* `api which allows Feitan to talk and provide a more interactive group chat experience.`
 
 *Admins only Commands*:
  
 ✗ /Chatbot - `Shows chatbot control panel`
   
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
 
 __mod_name__ = "CʜᴀᴛBᴏᴛ"
