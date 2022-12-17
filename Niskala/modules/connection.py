@@ -413,7 +413,7 @@ __help__ = """
 *Admins only:*
 ✗ /allowconnect - `<yes/no> allow a user to connect to a chat`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido*
 """
 
 CONNECT_CHAT_HANDLER = CommandHandler(
