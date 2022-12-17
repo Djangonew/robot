@@ -212,6 +212,6 @@ __help__ = """
 ✗ /fedadminhelp - `Provides help for fed administration commands`
 ✗ /feduserhelp - `Provides help for commands anyone can use`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
 __mod_name__ = "Fꜱᴜʙ & Fᴇᴅꜱ"
