@@ -1,7 +1,7 @@
 __mod_name__ = "Tᴏᴏʟꜱ"
 
 __help__ = """
-*AL Info bot*
+*ALL Info bot*
 ✗  /sg <reply> - `To check history name`
 
 *Date-time-Weather*
@@ -26,5 +26,5 @@ __help__ = """
 *Tagger*
 ✗  /tagall - `for tag everyone at least 100 member first.`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
