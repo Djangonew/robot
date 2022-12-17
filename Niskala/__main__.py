@@ -102,7 +102,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴛᴀᴍʙᴀʜᴋᴀɴ ғᴇɪᴛᴀɴ", url="http://t.me/FeitaTapi_bot?startgroup=true"),
+        InlineKeyboardButton(text="ᴛᴀᴍʙᴀʜᴋᴀɴ ғᴇɪᴛᴀɴ", url="http://t.me/FeitanTapi_bot?startgroup=true"),
     ],
 ]
 
