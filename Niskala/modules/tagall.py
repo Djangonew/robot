@@ -9,7 +9,7 @@ from Niskala.events import register as tomori
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "Hi Friends I'm Emiko I Call To All Of You"
+    mentions = "Hi Friends I'm Feitan I Call To All Of You"
     chat = await event.get_input_chat()
     async for x in telethn.iter_participants(chat, 100):
         mentions += f" \n [{x.first_name}](tg://user?id={x.id})"
@@ -24,7 +24,7 @@ async def _(event):
     mentions = "Users : "
     chat = await event.get_input_chat()
     async for x in telethn.iter_participants(chat, filter=ChannelParticipantsAdmins):
-        mentions += f"👤 \n [{x.first_name}](tg://user?id={x.id})"
+        mentions += f" \n [{x.first_name}](tg://user?id={x.id})"
     reply_message = None
     if event.reply_to_msg_id:
         reply_message = await event.get_reply_message()
