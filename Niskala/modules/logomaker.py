@@ -196,7 +196,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Niskala](https://t.me/NiskalaXRobot)",
+            caption="Logo by [Feitan](https://t.me/FeitanTapi_bot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -217,5 +217,5 @@ __help__ = """
  *Image Editor :*
 ✗  /edit - `<reply photo> to edit image.`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
