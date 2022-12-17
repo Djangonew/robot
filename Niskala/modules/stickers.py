@@ -587,7 +587,7 @@ __help__ = """
 ✗ /kamuii - `To deepefying stiker`
 ✗ /mmf - `To draw a text for sticker or pohots`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
 
 
