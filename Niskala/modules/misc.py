@@ -210,7 +210,7 @@ __help__ = """
 ❂ /music or /song (query)- `download song from yt servers. (API BASED)`
 ❂ /lyrics (song name) - `This plugin searches for song lyrics with song name.`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
 
 ECHO_HANDLER = DisableAbleCommandHandler(
