@@ -346,7 +346,7 @@ __help__ = """
 ✗ /latin - `<text>: latinify your text!`
 ✗ /lined - `<text>: lined your text!`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize, run_async=True)
