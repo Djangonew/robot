@@ -225,7 +225,7 @@ __help__ = """
 ✗ /gignoreblue - `<word> globally ignorea bluetext cleaning of saved word across DᴇCᴏᴅᴇ.`
 ✗ /ungignoreblue - `<word> remove said command from global cleaning list`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
 
 SET_CLEAN_BLUE_TEXT_HANDLER = CommandHandler(
