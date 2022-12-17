@@ -1254,7 +1254,7 @@ __help__ = """
 *Welcome markdown:*
 ✗ /welcomehelp - `view more formatting information for custom welcome/goodbye messages.`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
 
 NEW_MEM_HANDLER = MessageHandler(
