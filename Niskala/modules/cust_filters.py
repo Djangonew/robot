@@ -631,7 +631,7 @@ __help__ = """
 *NOTE*: `Filters also support markdown formatters like: {first}, {last} etc.. and buttons.`
 `Check /markdownhelp to know more!`
 
-*Maintained By : @IDnyaAL!*
+*Maintained By : @sowhtido!*
 """
 
 __mod_name__ = "Fɪʟᴛᴇʀꜱ"
