@@ -78,12 +78,12 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-FEITAN_IMG = "https://telegra.ph/file/f87c4dcc9434e9bbf6c45.jpg"
+NISKALA_IMG = "https://telegra.ph/file/f87c4dcc9434e9bbf6c45.jpg"
 
 PM_START_TEXT = """
 *ʜᴇʟʟᴏ {},*
-✪ `ᴍʏ ɴᴀᴍᴇ ɪꜱ ғᴇɪᴛᴀɴ [✨](https://telegra.ph/file/f87c4dcc9434e9bbf6c45.jpg)
-ᴍᴇ ɪꜱ ᴀ ʙᴏᴛ ᴍᴀɴᴀɢᴇʀ + ᴍᴜꜱɪᴄ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡᴇʟʟ.`
+✪ `ᴍʏ ɴᴀᴍᴇ ɪꜱ ғᴇɪᴛᴀɴ` [✨](https://telegra.ph/file/f87c4dcc9434e9bbf6c45.jpg)
+ᴍᴇ ɪꜱ ᴀ ʙᴏᴛ ᴍᴀɴᴀɢᴇʀ + ᴍᴜꜱɪᴄ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡᴇʟʟ`.
 ────────────────────
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
@@ -103,7 +103,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="", url="http://t.me/FeitaTapi_bot?startgroup=true"),
+        InlineKeyboardButton(text="ᴛᴀᴍʙᴀʜᴋᴀɴ ғᴇɪᴛᴀɴ", url="http://t.me/FeitaTapi_bot?startgroup=true"),
     ],
 ]
 
@@ -471,7 +471,7 @@ def niskala_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/loghisoka"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/logfeitan"),
                     InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/sowhtido"),
                  ],
                  [
@@ -490,7 +490,7 @@ def niskala_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="who", url="t.me/sowhtido"),
+                    InlineKeyboardButton(text="ᴀʟ", url="t.me/IDnyaAL""),
                     InlineKeyboardButton(text="Sʜᴜʙʜᴀɴꜱʜᴜ", url="t.me/Shubhanshutya"),
                  ],
                  [
@@ -781,7 +781,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Hi,I'M alive")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Ok,Aku Aktif 👍")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
