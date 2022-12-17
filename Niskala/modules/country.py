@@ -101,7 +101,7 @@ Time Zones:- {tom}
 Top Level Domain:- {lanester}
 wikipedia:- {wiki}</b>
 
-Gathered By Niskala Robot ✨.</b>
+Gathered By Feitan Robot ✨.</b>
 """
 
     await borg.send_message(
