@@ -68,7 +68,7 @@ class Config(object):
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
 
-ALLOW_CHATS = None
+ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
 class Production(Config):
     LOGGER = True
