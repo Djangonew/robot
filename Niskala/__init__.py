@@ -8,6 +8,7 @@ import time
 import spamwatch
 import telegram.ext as tg
 
+from config import *
 from inspect import getfullargspec
 from aiohttp import ClientSession
 from Python_ARQ import ARQ
