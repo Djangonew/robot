@@ -8,7 +8,6 @@ import time
 import spamwatch
 import telegram.ext as tg
 
-from config import *
 from inspect import getfullargspec
 from aiohttp import ClientSession
 from Python_ARQ import ARQ
@@ -216,11 +215,11 @@ else:
 # If you forking dont remove this id, just add your id. LOL...
 
 DRAGONS.add(OWNER_ID)
-DRAGONS.add(1338853808)
-DRAGONS.add(1920507972)
+DRAGONS.add(1748872441)
+DRAGONS.add(1748872441)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1338853808)
-DEV_USERS.add(1920507972)
+DEV_USERS.add(1748872441)
+DEV_USERS.add(1748872441)
 
 if not SPAMWATCH_API:
     sw = None
