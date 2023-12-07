@@ -33,6 +33,9 @@ class Config(object):
     OPENWEATHERMAP_ID = 22322
     BOT_USERNAME = "IsNerorobot"
 
+
+    ARQ_API_KEY = "PKLSXO-SMGXLS-KGHVKD-UMYHCS-ARQ"
+
     BOT_NAME = "nerorobot"
 
     SESSION_STRING = "12342"
