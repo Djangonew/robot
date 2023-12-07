@@ -27,6 +27,8 @@ class Config(object):
         -1002081701186
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
+
+    MONGO_DB_URI = "mongodb+srv://nerobot:1234@cluster0.t3klmek.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
     LOAD = []
