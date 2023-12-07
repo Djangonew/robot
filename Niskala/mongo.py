@@ -1,6 +1,6 @@
 import asyncio
 import sys
-import logger
+
 from motor import motor_asyncio
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
@@ -9,7 +9,7 @@ from Niskala.confing import get_int_key, get_str_key
 
 
 MONGO_PORT = get_int_key("27017")
-MONGO_DB_URI = get_str_key("mongodb+srv://nerobot:1234@cluster0.t3klmek.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = get_str_key("MONGO_DB_URI")
 MONGO_DB = "Niskala"
 
 
