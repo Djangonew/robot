@@ -1,6 +1,6 @@
 import asyncio
 import sys
-from mongo import log
+from pymongo import log
 from motor import motor_asyncio
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
