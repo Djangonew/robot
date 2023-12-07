@@ -35,6 +35,9 @@ class Config(object):
 
     OPENWEATHERMAP_ID = 22322
 
+    HEROKU_APP_NAME = "siap"
+    HEROKU_API_KEY = "YES"
+
     TEMP_DOWNLOAD_DIRECTORY = "./"
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
