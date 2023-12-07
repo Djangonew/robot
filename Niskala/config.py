@@ -33,7 +33,7 @@ class Config(object):
     OPENWEATHERMAP_ID = 22322
     BOT_USERNAME = "IsNerorobot"
 
-    MONGO_PORT = 27017
+    MONGO_PORT = "27017"
     MONGO_DB = "Niskala"
     
     ARQ_API_URL = "https://thearq.tech"
