@@ -34,6 +34,7 @@ class Config(object):
     ARQ_API_KEY = "BCYKVF-KYQWFM-JCMORU-RZWOFQ-ARQ"
 
     OPENWEATHERMAP_ID = 22322
+    BOT_USERNAME = "IsNerorobot"
 
     SESSION_STRING = "12342"
     STRING_SESSION = "kontol"
