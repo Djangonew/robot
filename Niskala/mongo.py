@@ -1,6 +1,6 @@
 import asyncio
 import sys
-from Niskala import *
+import logger
 from motor import motor_asyncio
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
