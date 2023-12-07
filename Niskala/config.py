@@ -50,7 +50,7 @@ class Config(object):
 
     TEMP_DOWNLOAD_DIRECTORY = "./"
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://ruhwehxs:uUx8rkqaoghtwxwjiVRDc8yJxQ1IJxq6@john.db.elephantsql.com/ruhwehxs"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
