@@ -33,6 +33,7 @@ class Config(object):
     ARQ_API_URL = "https://arq.hamker.in"
     ARQ_API_KEY = "BCYKVF-KYQWFM-JCMORU-RZWOFQ-ARQ"
 
+    OPENWEATHERMAP_ID = 22322
 
     TEMP_DOWNLOAD_DIRECTORY = "./"
     # RECOMMENDED
