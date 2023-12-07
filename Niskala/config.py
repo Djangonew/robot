@@ -36,6 +36,8 @@ class Config(object):
     OPENWEATHERMAP_ID = 22322
     BOT_USERNAME = "IsNerorobot"
 
+    BOT_NAME = "nerorobot"
+
     SESSION_STRING = "12342"
     STRING_SESSION = "kontol"
 
