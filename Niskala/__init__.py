@@ -124,7 +124,7 @@ if ENV:
     WELCOME_DELAY_KICK_SEC = os.environ.get("WELCOME_DELAY_KICL_SEC", None)
     BOT_ID = int(os.environ.get("BOT_ID", None))
     ARQ_API_URL = "https://thearq.tech"
-    ARQ_API_KEY = ARQ_API
+    ARQ_API_KEY = "PKLSXO-SMGXLS-KGHVKD-UMYHCS-ARQ"
     ERROR_LOGS = os.environ.get("ERROR_LOGS")
 
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
