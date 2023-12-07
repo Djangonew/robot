@@ -34,7 +34,7 @@ class Config(object):
     BOT_USERNAME = "IsNerorobot"
 
 
-    ARQ_API_KEY = "PKLSXO-SMGXLS-KGHVKD-UMYHCS-ARQ"
+    
     ARQ_API_URL = "https://thearq.tech"
 
     BOT_NAME = "nerorobot"
