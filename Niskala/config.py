@@ -37,6 +37,7 @@ class Config(object):
 
     HEROKU_APP_NAME = "siap"
     HEROKU_API_KEY = "YES"
+    REM_BG_API_KEY = "yahoo"
 
     TEMP_DOWNLOAD_DIRECTORY = "./"
     # RECOMMENDED
