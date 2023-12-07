@@ -30,9 +30,6 @@ class Config(object):
 
     MONGO_DB_URI = "mongodb+srv://nerobot:1234@cluster0.t3klmek.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
 
-    ARQ_API_URL = "https://arq.hamker.in"
-    ARQ_API_KEY = "PKLSXO-SMGXLS-KGHVKD-UMYHCS-ARQ"
-
     OPENWEATHERMAP_ID = 22322
     BOT_USERNAME = "IsNerorobot"
 
