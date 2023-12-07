@@ -32,6 +32,9 @@ class Config(object):
 
     ARQ_API_URL = "https://arq.hamker.in"
     ARQ_API_KEY = "BCYKVF-KYQWFM-JCMORU-RZWOFQ-ARQ"
+
+
+    TEMP_DOWNLOAD_DIRECTORY = "./"
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
     LOAD = []
