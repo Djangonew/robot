@@ -45,6 +45,9 @@ class Config(object):
     HEROKU_API_KEY = "YES"
     REM_BG_API_KEY = "yahoo"
 
+    LASTFM_API_KEY = "yeah"
+    CF_API_KEY = "jk"
+
     TEMP_DOWNLOAD_DIRECTORY = "./"
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
