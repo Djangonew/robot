@@ -1,5 +1,6 @@
 from envparse import env
 from Niskala import LOGGER
+import sys
 
 DEFAULTS = {
     "LOAD_MODULES": True,
