@@ -35,6 +35,9 @@ class Config(object):
 
     OPENWEATHERMAP_ID = 22322
 
+    SESSION_STRING = "12342"
+    STRING_SESSION = "kontol"
+
     HEROKU_APP_NAME = "siap"
     HEROKU_API_KEY = "YES"
     REM_BG_API_KEY = "yahoo"
