@@ -125,6 +125,8 @@ if ENV:
     BOT_ID = int(os.environ.get("BOT_ID", None))
     ARQ_API_URL = "https://thearq.tech"
     ARQ_API_KEY = "PKLSXO-SMGXLS-KGHVKD-UMYHCS-ARQ"
+    MONGO_PORT = os.environ.get("MONGO_PORT")
+    MONGO_DB = os.environ.get("MONGO_DB", "Niskala")
     ERROR_LOGS = os.environ.get("ERROR_LOGS")
 
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
@@ -207,6 +209,8 @@ else:
     STRING_SESSION = Config.STRING_SESSION
     LASTFM_API_KEY = Config.LASTFM_API_KEY
     CF_API_KEY = Config.CF_API_KEY
+    MONGO_DB = Config.MONGO_DB
+    MONGO_PORT = Config.MONGO_PORT
 
     try:
         BL_CHATS = {int(x) for x in Config.BL_CHATS or []}
