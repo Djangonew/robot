@@ -28,7 +28,7 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
 
-    MONGO_DB_URI = "mongodb+srv://nerobot:1234@cluster0.t3klmek.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
+    MONGO_DB_URI = "mongodb+srv://mongo:1234@newmongo0.8evlghp.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
 
     OPENWEATHERMAP_ID = 22322
     BOT_USERNAME = "IsNerorobot"
