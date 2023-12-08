@@ -9,8 +9,8 @@ from Niskala import MONGO_DB_URI
 from Niskala.confing import get_int_key, get_str_key
 
 
-MONGO_PORT = get_int_key("27017")
-MONGO_DB_URI = get_str_key("MONGO_DB_URI")
+MONGO_PORT = get_int_key("139.194.61.152/32")
+MONGO_DB_URI = get_str_key("MONGO_DB_URI", "mongodb+srv://mongo:1234@newmongo0.8evlghp.mongodb.net/?retryWrites=true&w=majority")
 MONGO_DB = "Niskala"
 
 
